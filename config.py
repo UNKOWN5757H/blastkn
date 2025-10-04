@@ -4,7 +4,7 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '8080'
-OWNER_ID = 2098589219
+OWNER_ID = 2140941107
 
 MSG_EFFECT = 5046509860389126442
 
@@ -14,7 +14,7 @@ SHORT_TUT = "https://t.me/how_to_opan_linkz/6"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "8316991207:AAEibNlO4L2978DeJFFK9K9bdZJXCw2UfSg"
+TOKEN = "8272103949:AAFMoNbFwJ8fCk-62ot-P2m2t6fAXLUwt3E"
 API_ID = "2468192"
 API_HASH = "4906b3f8f198ec0e24edb2c197677678"
 WORKERS = 5
@@ -22,18 +22,18 @@ WORKERS = 5
 DB_URI = "mongodb+srv://Filter01:ei62heT4O81OyNyl@Filter01.6kyybcz.mongodb.net/?retryWrites=true&w=majority&appName=Filter01"
 DB_NAME = "Filter01"
 
-FSUBS = [[-1001951277428, True, 15]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1002164801385, True, 30]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL = -1001683081282  # just put channel id dont add ""
+DB_CHANNEL = -1003027869798  # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
-#     "-1001683081282": {"name": "Primary DB", "is_primary": True, "is_active": True},
-#     "-1001683081282": {"name": "Secondary DB", "is_primary": False, "is_active": True}
+#     "-1003027869798": {"name": "Primary DB", "is_primary": True, "is_active": True},
+#     "-1003027869798": {"name": "Secondary DB", "is_primary": False, "is_active": True}
 # }
 # Auto Delete Timer (seconds)
 AUTO_DEL = 900
 # Admin IDs
-ADMINS = [2068233407, 2098589219]
+ADMINS = [2098589219, 2140941107]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = False 
